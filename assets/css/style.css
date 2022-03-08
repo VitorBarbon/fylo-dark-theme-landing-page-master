@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #181f2a;
+}
+
+.c-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.c-header__logo img {
+  width: 80px;
+}
+.c-header .c-navbar .nav-links {
+  display: flex;
+  gap: 24px;
+}
+.c-header .c-navbar .nav-links__link {
+  font-size: 12px;
+  color: white;
+}
+.c-header .c-navbar .nav-links__link:hover {
+  opacity: 0.8;
+}
+
+.c-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+}
+.c-intro div {
+  width: 300px;
+}
+.c-intro__image {
+  width: 90%;
+}
+.c-intro__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  margin-top: 42px;
+}
+.c-intro__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 24px;
+}
+.c-intro__button, .c-form .form__button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  width: 240px;
+  height: 40px;
+  color: white;
+  border: none;
+  background: linear-gradient(45deg, #65e2d9, #339ecc);
+  border-radius: 20px;
+  margin-top: 32px;
+}
+.c-intro__button:hover, .c-form .form__button:hover {
+  background: linear-gradient(45deg, #339ecc, #65e2d9);
+}
+
+.c-services {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+}
+.c-services__items {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr;
+  gap: 80px;
+}
+.c-services__item {
+  width: 300px;
+}
+.c-services__title {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.c-services__description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.c-productive {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  color: white;
+  text-align: start;
+}
+.c-productive div {
+  width: 300px;
+  padding: 10px;
+}
+.c-productive__image {
+  width: 100%;
+}
+.c-productive__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin-top: 42px;
+  margin-bottom: 24px;
+}
+.c-productive__description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.c-productive__link {
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: cyan;
+  width: 160px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid cyan;
+  gap: 10px;
+}
+.c-productive__link:hover {
+  border-bottom-color: transparent;
+}
+
+.c-comments {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+}
+.c-comments .c-cards {
+  padding-top: 20px;
+  background: url(../../images/bg-quotes.png) no-repeat;
+  background-size: 20px;
+  width: 260px;
+}
+.c-comments .c-cards__item {
+  background-color: #202a3c;
+  border-radius: 5px;
+  padding: 20px 15px;
+  margin-bottom: 25px;
+}
+.c-comments .c-cards__comment {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+}
+.c-comments .c-cards .profile {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.c-comments .c-cards .profile__image {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.c-comments .c-cards .profile__name {
+  font-size: 12px;
+}
+.c-comments .c-cards .profile__occupation {
+  font-size: 10px;
+}
+
+.c-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: -170px;
+}
+.c-form .form {
+  width: 290px;
+  height: 340px;
+  background-color: #1c2431;
+  padding: 40px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.c-form .form__title, .c-form .form__description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+.c-form .form__description {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.c-form .form__input {
+  padding-left: 10px;
+  margin-top: 30px;
+  width: 240px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
+.c-form .form__button {
+  margin-top: 20px;
+}
+
+.c-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b1523;
+  padding-top: 250px;
+}
+.c-footer .info-fylo, .c-footer .nav-footer, .c-footer .social-medias {
+  width: 300px;
+}
+.c-footer .info-fylo__link {
+  color: #c9c9c9;
+}
+.c-footer .info-fylo__logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+.c-footer .info-fylo__item {
+  font-size: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.c-footer .info-fylo__icon {
+  width: 12px;
+  margin-right: 10px;
+}
+.c-footer .nav-footer, .c-footer .social-medias {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.c-footer .nav-footer__link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.c-footer .nav-footer__link--spacing {
+  margin-bottom: 30px;
+}
+.c-footer .social-medias {
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 20px;
+}
+.c-footer .social-medias__icon {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.attribution {
+  color: white;
+}
+.attribution a {
+  color: cyan;
+}
+
+/*# sourceMappingURL=style.css.map */
