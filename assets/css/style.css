@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #181f2a;
+  background-color: #181F2A;
 }
 
 .c-header {
@@ -26,7 +26,7 @@ body {
 }
 .c-header .c-navbar .nav-links__link {
   font-size: 12px;
-  color: white;
+  color: #FFFFFF;
 }
 .c-header .c-navbar .nav-links__link:hover {
   opacity: 0.8;
@@ -37,7 +37,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 80px;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
 }
 .c-intro div {
@@ -61,14 +61,14 @@ body {
   font-weight: 400;
   width: 240px;
   height: 40px;
-  color: white;
+  color: #FFFFFF;
   border: none;
-  background: linear-gradient(45deg, #65e2d9, #339ecc);
+  background: linear-gradient(45deg, #65E2D9, #339ECC);
   border-radius: 20px;
   margin-top: 32px;
 }
 .c-intro__button:hover, .c-form .form__button:hover {
-  background: linear-gradient(45deg, #339ecc, #65e2d9);
+  background: #65E2D9;
 }
 
 .c-services {
@@ -76,7 +76,7 @@ body {
   align-items: center;
   text-align: center;
   margin-top: 200px;
-  color: white;
+  color: #FFFFFF;
 }
 .c-services__items {
   display: grid;
@@ -103,7 +103,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 200px;
-  color: white;
+  color: #FFFFFF;
   text-align: start;
 }
 .c-productive div {
@@ -130,10 +130,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: cyan;
+  color: #65E2D9;
   width: 160px;
   padding-bottom: 5px;
-  border-bottom: 1px solid cyan;
+  border-bottom: 1px solid #65E2D9;
   gap: 10px;
 }
 .c-productive__link:hover {
@@ -161,14 +161,14 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   line-height: 20px;
-  color: white;
+  color: #FFFFFF;
 }
 .c-comments .c-cards .profile {
   display: flex;
   align-items: center;
   margin-top: 15px;
   font-family: "Open Sans", sans-serif;
-  color: white;
+  color: #FFFFFF;
 }
 .c-comments .c-cards .profile__image {
   width: 30px;
@@ -200,7 +200,7 @@ body {
 .c-form .form__title, .c-form .form__description {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  color: white;
+  color: #FFFFFF;
 }
 .c-form .form__description {
   font-size: 14px;
@@ -255,7 +255,7 @@ body {
 .c-footer .nav-footer__link {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: white;
+  color: #FFFFFF;
 }
 .c-footer .nav-footer__link--spacing {
   margin-bottom: 30px;
@@ -271,17 +271,24 @@ body {
   align-items: center;
   padding: 10px;
   font-size: 20px;
-  color: white;
-  border: 1px solid white;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
   border-radius: 50%;
   align-self: center;
 }
 
 .attribution {
-  color: white;
+  color: #FFFFFF;
+  text-align: center;
 }
 .attribution a {
-  color: cyan;
+  font-size: 12px;
+  color: #65E2D9;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
